@@ -249,7 +249,7 @@ if (false) {
         'landscape right': 3
     };
     BK.Director.screenMode = ORIENTATIONS[window._CCSettings.orientation];
-    in it Adapter();
+    init Adapter();
     cc.game.once(cc.game.EVENT_ENGINE_INITED, function() {
         initRendererAdapter();
     });
